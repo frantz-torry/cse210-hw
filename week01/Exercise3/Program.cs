@@ -32,4 +32,5 @@ class Program
         } while (magicNum != guessNum);
     }
     
+    
 }

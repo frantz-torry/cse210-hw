@@ -13,11 +13,11 @@ class Program
         {
             valueG = "F";
         }
-        else if (numGrade > 59 && numGrade < 70 )
+        else if (numGrade > 59 && numGrade < 70)
         {
             valueG = "D";
         }
-        else if (numGrade > 69 && numGrade < 80 )
+        else if (numGrade > 69 && numGrade < 80)
         {
             valueG = "C";
         }
@@ -25,10 +25,11 @@ class Program
         {
             valueG = "B";
         }
-        else{
+        else
+        {
             valueG = "A";
         }
-            Console.WriteLine($" Your grade is {valueG}");
+        Console.WriteLine($" Your grade is {valueG}");
 
         if (numGrade >= 70)
         {
@@ -39,4 +40,5 @@ class Program
             Console.WriteLine("Better luck next time!");
         }
     }
+    
 }
